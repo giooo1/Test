@@ -1,11 +1,5 @@
-let i = 3; 
-while (i<20) {
-console.log(i);
-i=i+3
+function multiply(a,b,c){
+    return a*b*c
 }
-
-
-let arr = [25, 3, 19, 47, 5, 18];
-for (let a = 0; a<arr.length; a++) {
-    
-}
+let c = multiply(3,7,5);
+console.log(c)

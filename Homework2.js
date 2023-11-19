@@ -34,10 +34,10 @@ for (let letter of array){
 
 let petname = ["Bella", "Max", "Luna", "Charlie", "Charlie", "Cooper", "Max", "Milo"];
 for (let i = 0; i<8; i++){
- if (petname[0] == petname[1]) break;
- if (petname[1] == petname[2]) break;
- if (petname[2] == petname[3]) break;
- if (petname[3] == petname[4]) break;
+ if (petname[0] === petname[1]) break;
+ if (petname[1] === petname[2]) break;
+ if (petname[2] === petname[3]) break;
+ if (petname[3] === petname[4]) break;
     console.log(petname[i])
 }
 
